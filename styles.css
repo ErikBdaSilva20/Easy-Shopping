@@ -1,0 +1,157 @@
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Definições gerais */
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da primeira coluna (First) */
+.first {
+    min-height: 100vh;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .h1 {
+    color: rgb(71, 0, 152);
+}
+
+.first .p {
+    width: 50vw;
+    font-weight: 500;
+}
+
+.startedButton {
+    border: none;
+    background-color: rgb(110, 0, 184);
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+/* Estilo da segunda coluna (Second) */
+.second {
+    min-height: 100vh;
+    background-color: rgba(30, 0, 66, 0.744);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second header {
+    display: flex;
+    flex-wrap: wrap; /* Flex para acomodar os botões responsivamente */
+    justify-content: center;
+    gap: 1rem; /* Espaço entre os botões */
+}
+
+.second button {
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgba(137, 43, 226, 0.395);    
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: rgba(88, 5, 198, 0.737);
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.buttonStyle {
+    background-color: rgba(137, 43, 226, 0.395);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* Media Query para telas pequenas */
+@media (max-width: 768px) {
+    /* Ajusta o layout da primeira coluna */
+    .first {
+        min-height: auto;
+        padding: 3rem 1rem;
+    }
+
+    /* Ajusta o layout da segunda coluna */
+    .second {
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
+
+    /* Esconde os botões para dispositivos móveis */
+    .buttonStyle {
+        display: none; /* Esconde os botões */
+    }
+
+    /* Mostrar navbar em telas pequenas */
+    .navbar {
+        display: block; /* Exibe a navbar para dispositivos móveis */
+    }
+
+    .navbar-toggler {
+        display: block; /* Exibe o botão de toggle da navbar */
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .startedButton {
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+        padding: 1rem 2rem;
+    }
+
+    .first p {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .first h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Media Query para telas grandes (a partir de 769px) */
+@media (min-width: 769px) {
+    /* Esconde a navbar para telas grandes */
+    .navbar {
+        display: none; /* Oculta a navbar para dispositivos maiores */
+    }
+
+    /* Exibe os botões para telas grandes */
+    .buttonStyle {
+        display: inline-block; /* Exibe os botões */
+    }
+
+    /* Ajustes do layout para telas maiores */
+    .first {
+        min-height: 100vh;
+        padding: 5rem 2rem;
+    }
+
+    .second {
+        min-height: 100vh;
+        padding: 3rem 2rem;
+    }
+
+    .first p {
+        width: 50vw;
+        font-size: 1.2rem;
+    }
+}

@@ -12,5 +12,5 @@ Tecnologias Utilizadas:
 <br>
 Objetivo: O projeto foi criado para explorar e praticar design responsivo, aplicando Bootstrap para garantir uma interface fluida e agradável em diversas resoluções de tela.
 
-Repositório no GitHub
-Projeto no GitHub Pages
+📂 Repositório no GitHub: https://github.com/ErikBdaSilva20/Easy-Shopping
+🌐 Projeto no GitHub Pages: https://erikbdasilva20.github.io/Easy-Shopping/

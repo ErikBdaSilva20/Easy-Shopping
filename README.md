@@ -1,7 +1,7 @@
 <h1>Easy Shopping 🛒</h1>
 
 <p>
-Easy Shopping é um projeto desenvolvido utilizando HTML, CSS e Bootstrap, com foco na criação de um layout simples e responsivo para um design de compras. 
+Easy Shopping é um projeto desenvolvido utilizando HTML, CSS e Bootstrap, com foco na criação de um layout simples e responsivo para um design. 
 Este projeto tem como objetivo aprimorar os conceitos de design responsivo e a integração do Bootstrap, criando uma interface adaptável e visualmente atrativa, 
 voltada para a experiência do usuário em dispositivos móveis e desktops.
 </p>

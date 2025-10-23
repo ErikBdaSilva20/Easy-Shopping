@@ -20,7 +20,7 @@ O projeto foi criado para explorar e praticar design responsivo, aplicando Boots
 
 <h2>🌐 Linkedin e GitPage:</h2>
 <ul>
-  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/erik-borges-silva/" target="_blank">https://www.linkedin.com/in/erik-borges-silva/</a></li>
+  <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/erik-borgessilva20" target="_blank">www.linkedin.com/in/erik-borgessilva20/</a></li>
   
   <li><strong>Projeto no GitHub Pages:</strong> <a href="https://erikbdasilva20.github.io/Easy-Shopping/" target="_blank">https://erikbdasilva20.github.io/Easy-Shopping/</a></li>
 </ul>

@@ -1,4 +1,4 @@
-<h1>Easy Shopping 🛒</h1>
+<h1>Easy Shopping 🛒</h1> 
 
 <p>
 Easy Shopping é um projeto desenvolvido utilizando HTML, CSS e Bootstrap, com foco na criação de um layout simples e responsivo para um design. 
